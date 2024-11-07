@@ -1,0 +1,19 @@
+/* servicos.component.css */
+.servicos {
+  background-color: #000 !important; /* Fundo preto */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 40px 20px;
+  
+  /* Centralização com flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Empilha os elementos na vertical */
+  min-height: 50vh; /* Ajuste a altura conforme necessário */
+}
+
+.servicos img {
+  max-width: 100%;
+  height: auto;
+}

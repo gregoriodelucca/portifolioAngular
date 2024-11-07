@@ -1,0 +1,36 @@
+/* app.component.css */
+
+/* Definindo o fundo preto para a página inteira */
+body {
+  background-color: #000; /* Fundo preto para toda a aplicação */
+  color: white; /* Texto branco por padrão */
+  font-family: 'Poppins', sans-serif; /* Definindo a fonte global */
+  margin: 0; /* Remove margens padrão do body */
+  padding: 0; /* Remove o padding padrão do body */
+  height: 100vh; /* Garante que a altura ocupe toda a tela */
+  display: flex; /* Usando flexbox para o layout */
+  flex-direction: column; /* Organiza os elementos de cima para baixo */
+  justify-content: flex-start; /* Garante que os componentes fiquem alinhados no topo */
+}
+
+/* Se você quiser garantir que a altura da página ocupe a tela inteira */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: #fff; /* Garante que os títulos sejam brancos */
+}
+
+/* Estilos para links no footer */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

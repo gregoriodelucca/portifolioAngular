@@ -1,0 +1,22 @@
+/* footer.component.css */
+.footer {
+  background-color: #000 !important; /* Fundo preto */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px;
+  
+  /* Centralização com flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+/* sobre.component.css */
+.sobre {
+  background-color: #000 !important; /* Fundo preto */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px;
+  
+  /* Centralização com flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajuste para que ocupe toda a altura da tela */
+}
+
+.sobre img {
+  max-width: 100%; /* Faz a imagem ser responsiva */
+  height: auto; /* Mantém a proporção da imagem */
+}
